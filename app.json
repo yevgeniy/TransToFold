@@ -1,4 +1,11 @@
 {
   "name": "TransToFold",
-  "displayName": "TransToFold"
+  "displayName": "TransToFold",
+  "expo": {
+    "ios": {
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to upload pictures."
+      }
+    }
+  }
 }
