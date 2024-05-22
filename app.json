@@ -4,8 +4,15 @@
   "expo": {
     "ios": {
       "infoPlist": {
-        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to upload pictures."
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to upload pictures.",
+        "NSPhotoLibraryAddUsageDescription": "This app needs permission to delete pictures from your photo library."
       }
+    },
+    "android": {
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
     }
   }
 }
